@@ -136,11 +136,12 @@ def select_wavfile():
     return wav_file_path + "\\" + files[get_wav_file_number]
 
 
+#########################################################################################################
 # if len(sys.argv) < 2:
 #     print("Plays a wave file.\n\nUsage: %s filename.wav" % sys.argv[0])
 #     sys.exit(-1)
-
 # wf = wave.open(sys.argv[1], 'rb')
+
 mic_or_wav = input("Which input? [Microphone | Wav File]\nEnter 'm' or 'w'\t")
 if mic_or_wav == "m":
     live_audio_from_mic()
