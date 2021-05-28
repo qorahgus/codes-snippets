@@ -1,2 +1,4 @@
 .ipynb_checkpoints/
 _pycache_/
+*.wav
+.git/
